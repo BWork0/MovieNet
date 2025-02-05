@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DDCB84C-D010-48AF-A6A7-B52DE312DD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.Application", "src\MovieNet.Application\MovieNet.Application.csproj", "{922A8441-B239-48B6-93BA-06D568499D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.Api", "src\MovieNet.Api\MovieNet.Api.csproj", "{B95FC7B5-5343-4AB2-BCA1-1E75AC4EED54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.Infrastructure", "src\MovieNet.Infrastructure\MovieNet.Infrastructure.csproj", "{C5AA15DC-3A16-4DA4-8847-29F7722F2052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.Domain", "src\MovieNet.Domain\MovieNet.Domain.csproj", "{830B7506-1CB1-4A24-8872-5305000D9A37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{47D2CB82-5409-4781-836D-D1FC42F52722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.UnitTests", "test\MovieNet.UnitTests\MovieNet.UnitTests.csproj", "{C3EE93A9-0B1F-45F9-924E-4294B95A8437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.IntegrationTests", "test\MovieNet.IntegrationTests\MovieNet.IntegrationTests.csproj", "{9D0810D1-5414-431E-AB90-98CEBF6D2C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{922A8441-B239-48B6-93BA-06D568499D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922A8441-B239-48B6-93BA-06D568499D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922A8441-B239-48B6-93BA-06D568499D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922A8441-B239-48B6-93BA-06D568499D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95FC7B5-5343-4AB2-BCA1-1E75AC4EED54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95FC7B5-5343-4AB2-BCA1-1E75AC4EED54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95FC7B5-5343-4AB2-BCA1-1E75AC4EED54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95FC7B5-5343-4AB2-BCA1-1E75AC4EED54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AA15DC-3A16-4DA4-8847-29F7722F2052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AA15DC-3A16-4DA4-8847-29F7722F2052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AA15DC-3A16-4DA4-8847-29F7722F2052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AA15DC-3A16-4DA4-8847-29F7722F2052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830B7506-1CB1-4A24-8872-5305000D9A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830B7506-1CB1-4A24-8872-5305000D9A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830B7506-1CB1-4A24-8872-5305000D9A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830B7506-1CB1-4A24-8872-5305000D9A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EE93A9-0B1F-45F9-924E-4294B95A8437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EE93A9-0B1F-45F9-924E-4294B95A8437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EE93A9-0B1F-45F9-924E-4294B95A8437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EE93A9-0B1F-45F9-924E-4294B95A8437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0810D1-5414-431E-AB90-98CEBF6D2C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0810D1-5414-431E-AB90-98CEBF6D2C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0810D1-5414-431E-AB90-98CEBF6D2C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0810D1-5414-431E-AB90-98CEBF6D2C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{922A8441-B239-48B6-93BA-06D568499D28} = {5DDCB84C-D010-48AF-A6A7-B52DE312DD15}
+		{B95FC7B5-5343-4AB2-BCA1-1E75AC4EED54} = {5DDCB84C-D010-48AF-A6A7-B52DE312DD15}
+		{C5AA15DC-3A16-4DA4-8847-29F7722F2052} = {5DDCB84C-D010-48AF-A6A7-B52DE312DD15}
+		{830B7506-1CB1-4A24-8872-5305000D9A37} = {5DDCB84C-D010-48AF-A6A7-B52DE312DD15}
+		{C3EE93A9-0B1F-45F9-924E-4294B95A8437} = {47D2CB82-5409-4781-836D-D1FC42F52722}
+		{9D0810D1-5414-431E-AB90-98CEBF6D2C98} = {47D2CB82-5409-4781-836D-D1FC42F52722}
+	EndGlobalSection
+EndGlobal
